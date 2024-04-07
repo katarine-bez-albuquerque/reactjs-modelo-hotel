@@ -2,7 +2,7 @@
 
 <img src="./images/banner.png" alt="Banner" width="100%"/>
 
-Acesse o Projeto: [Modelo Hotel React]()
+Acesse o Projeto: [Modelo Hotel React](https://reactjs-modelo-hotel.vercel.app/)
 
 ## Sobre o projeto
 
