@@ -123,14 +123,22 @@
     }
 
     #nossas-linhas #description ul {
+        height: auto;
         text-align: left;
         overflow-y: hidden;
     }
 
     #nossas-linhas #description,
     #nossas-linhas #photo {
-        width: 100%;
-        height: 100%;
+        width: 100%;        
+    }
+
+    #nossas-linhas #photo {
+        height: auto;     
+    }
+
+    #nossas-linhas #photo img {
+        height: 30vh;
     }
 
     #depoimento {
