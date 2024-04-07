@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "photos": [
+                {
+                    "image": "frente2.jpg"
+                },
+                {
+                    "image": "frente3.jpg"
+                },
+                {
+                    "image": "quarto5.jpg"
+                }
+            ],
+            "rows": [
+                {
+                    "image": "quarto4.jpg",
+                    "title": "Loren Ipsum",
+                    "value": "R$ 69,00/noite"
+                },
+                {
+                    "image": "quarto3.jpg",
+                    "title": "Loren Ipsum",
+                    "value": "R$ 59,00/noite"
+                },
+                {
+                    "image": "quarto2.jpg",
+                    "title": "Loren Ipsum",
+                    "value": "R$ 49,00/noite"
+                },
+                {
+                    "image": "quarto1.jpg",
+                    "title": "Loren Ipsum",
+                    "value": "R$ 39,00/noite"
+                }
+            ],
+            "blog": [
+                {
+                    "image": "frente2.jpg",
+                    "data": "28/03/2024",
+                    "description": "Habitant morbi tristique senectus et netus et malesuada fames.",
+                    "name": "Continue =>",
+                    "link": ""
+                },
+                {
+                    "image": "frente3.jpg",
+                    "data": "21/02/2024",
+                    "description": "Augue suscipit ullamcorper efficitur.",
+                    "name": "Continue =>",
+                    "link": ""
+                },
+                {
+                    "image": "quarto3.jpg",
+                    "data": "12/01/2024",
+                    "description": "Consectetur adipiscing elit. Etiam id fermentum arcu.",
+                    "name": "Continue =>",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+}

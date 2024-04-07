@@ -1,0 +1,169 @@
+@media(max-width: 992px) {
+    #values {
+        width: 60vw;
+        left: calc((100% - 60vw) / 3);
+    }
+}
+
+@media(max-width: 828px) {
+    h1 {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #page {
+        height: auto;
+    }
+
+    #navbar {
+        width: 100vw;
+        position: fixed;
+    }
+
+    #navbar #btn-menu {
+        display: flex;
+    }
+
+    #navbar ul {
+        width: 55%;
+        height: 100vh;
+        padding: 1rem 10vw;
+        box-sizing: border-box;
+        display: none;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #e2e2e2;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        z-index: 1;
+    }
+
+    #header {
+        margin-top: 0;
+    }
+
+    #values {
+        height: 10vh;
+        padding: 1rem 0;
+        position: absolute;
+        bottom: 5rem;
+        left: 20%;
+        flex-wrap: wrap;
+        box-shadow: 0 0 6vh 0 #7c7c7c;
+    }
+
+    #values .item {
+        height: 12vh;
+        border: 0;
+        border-bottom: 1px solid #e2e2e2;
+        text-align: center;
+    }
+
+    #values .button {
+        height: 12vh;
+    }
+
+    #main {
+        padding: 45vh 0 15vh 0;
+    }
+
+    #sobre #galeria ul {
+        flex-wrap: wrap;
+    }
+
+    #nossas-linhas {
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #nossas-linhas article {
+        position: relative;
+        top: -10vh;
+    }
+
+    #nossas-linhas #description {
+        height: auto;
+    }
+
+    #nossas-linhas #description ul {
+        text-align: left;
+        overflow-y: hidden;
+    }
+
+    #nossas-linhas #description,
+    #nossas-linhas #photo {
+        width: 100%;
+    }
+
+    #depoimento {
+        height: 80vh;
+        padding: 3rem 0 0 0;
+    }
+
+    #blog #posts ul {
+        flex-wrap: wrap;
+    }
+
+    #blog #posts ul li {
+        width: 100%;
+        height: auto;
+    }
+
+    #contato {
+        height: auto;
+    }
+
+    #contato #info {
+        flex-wrap: wrap;
+    }
+
+    #contato #info #map,
+    #contato #info #local {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #footer #info #menu ul {
+        padding: 2rem 0;
+        flex-direction: column;
+        text-align: center;
+    }
+}
